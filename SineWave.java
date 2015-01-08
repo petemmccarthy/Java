@@ -11,3 +11,15 @@ public class SineWave
       frame.setVisible(true);
     }
 }
+
+/**
+  A frame with a message panel
+  */
+class SineFrame extends JFrame
+{
+    public SineFrame()
+    {
+      setTitle("SineTest");
+      setSize(WIDTH,HEIGHT);
+    }
+}
