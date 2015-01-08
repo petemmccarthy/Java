@@ -54,8 +54,8 @@ class SinePanel extends JPanel
 
     for ( x=5;x<635;x++)
     {
-      y = 240 + 60*Math.sin((x-0)/45);
-      if ( ( analog || x%6==0 ))
+      y = 240 + 60*Math.sin((x-30)/45);
+      if ( ( analog || x%6==0 ) )
       {
         if ( analog )
         {
