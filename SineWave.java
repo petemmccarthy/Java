@@ -37,7 +37,23 @@ class SineFrame extends JFrame
 */
 class SinePanel extends JPanel
 {
-  
+  public SinePanel()
+  {
+    w = 6;
+    old_x = 5;
+    old_y = 240;
+    analog = false;
+  }
+
+  public void paintComponent( Graphics g )
+  {
+    super.paintComponent(g);
+    Graphics2D g2 = (Graphics2D)g;
+
+    g2.draw(new Line2D.Double(0,240,640,240));
+
+    for ( x=5;x<635;x++)
+  }
 }
 
 
