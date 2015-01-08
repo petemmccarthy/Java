@@ -14,7 +14,7 @@ public class SineWave
 
 /**
   A frame with a message panel
-  */
+*/
 class SineFrame extends JFrame
 {
     public SineFrame()
@@ -31,3 +31,19 @@ class SineFrame extends JFrame
     public static final int WIDTH = 640;
     public static final int HEIGHT = 480;
 }
+
+/**
+  A panel that shows a sine wave
+*/
+class SinePanel extends JPanel
+{
+  
+}
+
+
+
+
+
+
+
+
