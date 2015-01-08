@@ -66,11 +66,21 @@ class SinePanel extends JPanel
         else
         {
           if ( y < 240 )
+          {
+            ul_y = y;
+            h = 240 - y;
+          }
+          else
+          {
+            ul_y = 240;
+            h = y - 240;
+          }
+          g2.draw(new Rectangle2D.Double(x-2,ul_y,w,h));
         }
       }
     }
-
   }
+  
 }
 
 
