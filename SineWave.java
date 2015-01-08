@@ -53,6 +53,23 @@ class SinePanel extends JPanel
     g2.draw(new Line2D.Double(0,240,640,240));
 
     for ( x=5;x<635;x++)
+    {
+      y = 240 + 60*Math.sin((x-0)/45);
+      if ( ( analog || x%6==0 ))
+      {
+        if ( analog )
+        {
+          if ( old_x <= x )
+            g2.draw(new Line2D.Double(old_x,old_y,x,y));
+          old_x = x; old_y = y;
+        }
+        else
+        {
+          if ( y < 240 )
+        }
+      }
+    }
+
   }
 }
 
