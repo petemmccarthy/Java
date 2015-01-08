@@ -80,13 +80,9 @@ class SinePanel extends JPanel
       }
     }
   }
-  
+
+  double x, y, old_x, old_y;
+  double ul_y;
+  double w, h;
+  boolean analog;
 }
-
-
-
-
-
-
-
-
