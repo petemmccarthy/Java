@@ -25,7 +25,7 @@ class SineFrame extends JFrame
       // add panel to frame
       SinePanel panel = new SinePanel();
       Container contentPane = getContentPane();
-      conetentPane.add(panel);
+      contentPane.add(panel);
     }
 
     public static final int WIDTH = 640;
