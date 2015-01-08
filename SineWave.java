@@ -21,5 +21,13 @@ class SineFrame extends JFrame
     {
       setTitle("SineTest");
       setSize(WIDTH,HEIGHT);
+
+      // add panel to frame
+      SinePanel panel = new SinePanel();
+      Container contentPane = getContentPane();
+      conetentPane.add(panel);
     }
+
+    public static final int WIDTH = 640;
+    public static final int HEIGHT = 480;
 }
