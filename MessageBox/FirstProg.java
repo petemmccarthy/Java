@@ -2,6 +2,6 @@ public class FirstProg
 {
   public static void main ( String[] args )
   {
-    system.out.println( "Good Morning!" );
+    System.out.println( "Good Morning!" );
   }
 }
