@@ -19,6 +19,6 @@ public class AskingQuestions
     System.out.print( "How much do you weigh? " );
     weight = keyboard.nextDouble();
 
-    System.out.print( "So you're " + age + " years old, " + height + " tall and " + weight + " heavy." );
+    System.out.println( "So you're " + age + " years old, " + height + " tall and " + weight + " heavy." );
   }
 }
