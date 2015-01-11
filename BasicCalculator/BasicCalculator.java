@@ -12,6 +12,14 @@ public class BasicCalculator
     double num3;
 
     System.out.print( "What is your first number? " );
+    num1 = keyboard.nextDouble();
+
+    System.out.print( "What is your second number? " );
+    num2 = keyboard.nextDouble();
+
+    System.out.print( "What is your third number? " );
+    num3 = keyboard.nextDouble();
+
 
   }
 }
