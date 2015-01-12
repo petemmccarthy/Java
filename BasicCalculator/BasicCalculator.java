@@ -21,7 +21,7 @@ public class BasicCalculator
     num3 = keyboard.nextDouble();
 
 
-    System.out.print( "( " num1 " + " + num2 " + " + num3 " ) / 2 is... " + ( ( num1 + num2 + num3 ) / 2 ) ) )
+    System.out.println( "( " + num1 + " + " + num2 + " + " + num3 + " ) / 2 is... " + ( ( num1 + num2 + num3 ) / 2 ) );
     
   }
 }
