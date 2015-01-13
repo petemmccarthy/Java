@@ -57,7 +57,7 @@ public class WeekdayName
     System.out.println( "weekday 5: " + weekday_name(5) );
     System.out.println( "weekday 6: " + weekday_name(6) );
     System.out.println( "weekday 7: " + weekday_name(7) );
-    System.out.println( "weekday 0: " + weekday_name(8) );
+    System.out.println( "weekday 0: " + weekday_name(0) );
     System.out.println();
     System.out.println( "weekday 43: " + weekday_name(43) );
     System.out.println( "weekday 17: " + weekday_name(17) );
