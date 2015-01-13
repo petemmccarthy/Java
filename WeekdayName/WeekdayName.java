@@ -2,6 +2,7 @@ import java.util.GregorianCalendar;
 
 public class WeekdayName
 {
+
   public static String weekday_name( int weekday )
   {
 
@@ -50,6 +51,7 @@ public class WeekdayName
 
   public static void main( String[] args )
   {
+
     System.out.println( "weekday 1: " + weekday_name(1) );
     System.out.println( "weekday 2: " + weekday_name(2) );
     System.out.println( "weekday 3: " + weekday_name(3) );
@@ -67,6 +69,7 @@ public class WeekdayName
     int dow = cal.get(GregorianCalendar.DAY_OF_WEEK);
 
     System.out.println( "\nToday is a " + weekday_name(dow) + "!" );
+    
   }
 
 }
