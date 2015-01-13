@@ -16,7 +16,10 @@ public class BMICalculator
       System.out.print( "What is your weight in kg? " );
       weight = keyboard.nextDouble();
 
-      
+      System.out.println( "Your height in metres: " + height );
+      System.out.println( "Your weight in kg: " + weight );
+      System.out.println();
+      System.out.println( "Your BMI is " + ( weight / ( height**2 )));
 
     }
 }
