@@ -7,9 +7,7 @@ public class BasicCalculator
 
     Scanner keyboard = new Scanner(System.in);
 
-    double num1;
-    double num2;
-    double num3;
+    double num1, num2, num3;
 
     System.out.print( "What is your first number? " );
     num1 = keyboard.nextDouble();
