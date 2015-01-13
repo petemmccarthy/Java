@@ -63,7 +63,10 @@ public class WeekdayName
     System.out.println( "weekday 17: " + weekday_name(17) );
     System.out.println( "weekday -1: " + weekday_name(-1) );
 
-    
+    GregorianCalendar cal = new GregorianCalendar();
+    int dow = cal.get(GregorianCalendar.DAY_OF_WEEK);
+
+    System.out.println( "\nToday is a " + weekday_name(dow) + "!" );
   }
 
 }
