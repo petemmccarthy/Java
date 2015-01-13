@@ -19,7 +19,7 @@ public class BMICalculator
       System.out.println( "Your height in metres: " + height );
       System.out.println( "Your weight in kg: " + weight );
       System.out.println();
-      System.out.println( "Your BMI is " + ( weight / ( height**2 )));
+      System.out.println( "Your BMI is " + ( weight / ( height * height )));
 
     }
 }
