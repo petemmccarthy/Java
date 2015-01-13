@@ -41,7 +41,7 @@ public class WeekdayName
     }
     else
     {
-      result = "error"
+      result = "error";
     }
 
     return result;
