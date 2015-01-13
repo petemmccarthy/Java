@@ -16,5 +16,15 @@ public class WhatIf
       System.out.println( "Not many cats! The world is saved!" ); 
     }
 
+    if ( people < dogs )
+    {
+      System.out.println( "The world is dooled on!" );
+    }
+
+    if ( people > dogs )
+    {
+      System.out.println( "The world is dry!" );
+    }
+    
   }
 }
