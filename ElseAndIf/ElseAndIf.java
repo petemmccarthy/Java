@@ -20,6 +20,19 @@ public class ElseAndIf
     {
       System.out.println( "We can't decide." );
     }
-    
+
+    if ( buses > cars )
+    {
+      System.out.println( "That's too many buses." );
+    }
+    else if ( buses < cars )
+    {
+      System.out.println( "Maybe we could take the buses." );
+    }
+    else
+    {
+      System.out.println( "We still can't decide." );
+    }
+
   }
 }
