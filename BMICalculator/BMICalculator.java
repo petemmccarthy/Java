@@ -10,5 +10,13 @@ public class BMICalculator
 
       double height, weight;
 
+      System.out.print( "What is your height in metres? " );
+      height = keyboard.nextDouble();
+
+      System.out.print( "What is your weight in kg? " );
+      weight = keyboard.nextDouble();
+
+      
+
     }
 }
