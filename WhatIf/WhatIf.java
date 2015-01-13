@@ -25,6 +25,23 @@ public class WhatIf
     {
       System.out.println( "The world is dry!" );
     }
-    
+
+    dogs += 5;
+
+    if ( people >= dogs )
+    {
+      System.out.println( "People are greater than or equal to dogs." );
+    }
+
+    if ( people <= dogs )
+    {
+      System.out.println( "People are less than or equal to dogs." ); 
+    }
+
+    if ( people == dogs )
+    {
+      System.out.println( "People are dogs." );
+    }
+
   }
 }
