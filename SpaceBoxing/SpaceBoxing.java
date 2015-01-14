@@ -42,7 +42,7 @@ public class SpaceBoxing
 
   }
 
-  public atatic void main( String[] args )
+  public static void main( String[] args )
   {
 
     Scanner keyboard = new Scanner(System.in);
@@ -63,6 +63,8 @@ public class SpaceBoxing
 
     System.out.println("\nWhich planet are you visiting?");
     planet = keyboard.nextInt();
+
+    System.out.println( "Your weight would be " + ( weight * result ) + " poiunds on that planet" );
 
   }
 }
