@@ -47,11 +47,26 @@ public class SpaceBoxing
 
     Scanner keyboard = new Scanner(System.in);
 
-    int weight;
+    int weight, planet;
 
     System.out.println( "Please enter your current earth weight: ");
-    weight = keyboard.next();
+    weight = keyboard.nextInt();
 
+    System.out.println( "I have information for the following planets:");
+    
+    System.out.println( "1. Venus");
+    System.out.println( "2. Mars");
+    System.out.println( "3. Jupiter");
+    System.out.println( "4. Saturn");
+    System.out.println( "5. Uranus");
+    System.out.println( "6. Neptune");
+
+    System.out.println("\nWhich planet are you visiting?");
+    planet = keyboard.nextInt();
 
   }
 }
+
+
+
+
