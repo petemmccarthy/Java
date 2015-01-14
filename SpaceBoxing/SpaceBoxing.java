@@ -61,10 +61,10 @@ public class SpaceBoxing
     System.out.println( "5. Uranus");
     System.out.println( "6. Neptune");
 
-    System.out.println("\nWhich planet are you visiting?");
+    System.out.println("\nWhich planet are you visiting? ");
     planet = keyboard.nextInt();
 
-    System.out.println( "Your weight would be " + ( weight * result ) + " poiunds on that planet" );
+    System.out.println( "Your weight would be " + ( weight * result ) + " pounds on that planet" );
 
   }
 }
