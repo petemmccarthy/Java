@@ -49,7 +49,9 @@ public class SpaceBoxing
 
     int weight;
 
-    
+    System.out.println( "Please enter your current earth weight: ");
+    weight = keyboard.next();
+
 
   }
 }
