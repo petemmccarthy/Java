@@ -6,7 +6,7 @@ public class SpaceBoxing
   public static String planet_name( int planet )
   {
 
-    int result = ;
+    String result = "";
 
     if ( planet == 1 )
     {
@@ -49,7 +49,7 @@ public class SpaceBoxing
 
     int weight, planet;
 
-    System.out.println( "Please enter your current earth weight: ");
+    System.out.print( "Please enter your current earth weight: ");
     weight = keyboard.nextInt();
 
     System.out.println( "I have information for the following planets:");
@@ -61,7 +61,7 @@ public class SpaceBoxing
     System.out.println( "5. Uranus");
     System.out.println( "6. Neptune");
 
-    System.out.println("\nWhich planet are you visiting? ");
+    System.out.print("\nWhich planet are you visiting? ");
     planet = keyboard.nextInt();
 
     System.out.println( "Your weight would be " + ( weight * result ) + " pounds on that planet" );
