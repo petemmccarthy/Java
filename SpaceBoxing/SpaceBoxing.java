@@ -3,10 +3,15 @@ import java.util.Scanner;
 public class SpaceBoxing
 {
 
-  public static String relative_gravity( int gravity )
+  public static String planet_name( int planet )
   {
 
-    String result = "";
+    int result = ;
+
+    if ( planet == 1 )
+    {
+      result = 0.78;
+    }
 
   }
 }
