@@ -41,4 +41,15 @@ public class SpaceBoxing
     return result;
 
   }
+
+  public atatic void main( String[] args )
+  {
+
+    Scanner keyboard = new Scanner(System.in);
+
+    int weight;
+
+    
+
+  }
 }
