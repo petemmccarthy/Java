@@ -6,7 +6,7 @@ public class SpaceBoxing
   public static String planet_name( int planet )
   {
 
-    String result = "";
+    double result = 1.0;
 
     if ( planet == 1 )
     {
@@ -33,9 +33,14 @@ public class SpaceBoxing
       result = 1.05;
     }
 
-    else ( planet == 6 )
+    else if ( planet == 6 )
     {
       result = 1.23;
+    }
+
+    else
+    {
+      result = 1;
     }
 
     return result;
