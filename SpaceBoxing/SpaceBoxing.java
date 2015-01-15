@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class SpaceBoxing
 {
 
-  public static String planet_name( int planet )
+  public static double planet_gravity( int planet )
   {
 
     double result = 1.0;
@@ -69,7 +69,7 @@ public class SpaceBoxing
     System.out.print("\nWhich planet are you visiting? ");
     planet = keyboard.nextInt();
 
-    System.out.println( "Your weight would be " + ( weight * result ) + " pounds on that planet" );
+    System.out.println( "Your weight would be " + ( weight * planet_gravity ) + " pounds on that planet" );
 
   }
 }
