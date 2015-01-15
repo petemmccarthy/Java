@@ -2,8 +2,10 @@ import java.util.Scanner;
 
 public class AskingQuestions
 {
+
   public static void main( String[] args )
   {
+
     Scanner keyboard = new Scanner(System.in);
 
     int age;
@@ -20,5 +22,7 @@ public class AskingQuestions
     weight = keyboard.nextDouble();
 
     System.out.println( "So you're " + age + " years old, " + height + " tall and " + weight + " heavy." );
+  
   }
+  
 }

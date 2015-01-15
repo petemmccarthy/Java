@@ -2,8 +2,10 @@ import java.util.Scanner;
 
 public class AgeInFiveYears
 {
+  
   public static void main ( String[] args )
   {
+
     Scanner keyboard = new Scanner(System.in);
 
     String name;
@@ -19,4 +21,5 @@ public class AgeInFiveYears
     System.out.println( "Five years ago you were " + ( age - 5 ) + "! Imagine that!" );
 
   }
+
 }
