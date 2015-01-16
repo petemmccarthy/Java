@@ -16,6 +16,9 @@ public class ALittleQuiz
     System.out.println( "1) Melbourne");
     System.out.println( "1) Anchorage");
     System.out.println( "1) Juneau");
+    System.out.println( "\n> ");
+
+    
 
   }
   
