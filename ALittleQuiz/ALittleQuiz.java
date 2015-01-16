@@ -9,7 +9,13 @@ public class ALittleQuiz
     Scanner keyboard = new SCanner(System.in);
 
     System.out.println( " Are you ready for a quiz? " );
+
     System.out.println( "Okay, here it comes!" );
+
+    System.out.println( "Q1) What is the capital of Alaska?");
+    System.out.println( "1) Melbourne");
+    System.out.println( "1) Anchorage");
+    System.out.println( "1) Juneau");
 
   }
   
