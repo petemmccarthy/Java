@@ -24,6 +24,13 @@ public class ALittleQuiz
     System.out.println( "2) no");
     System.out.println( "\n> ");
 
+
+    System.out.println( "Q1) What is the result of 9+6/3?");
+    System.out.println( "1) 5");
+    System.out.println( "2) 11");
+    System.out.println( "3) 15/3");
+    System.out.println( "\n> ");
+
   }
   
 }
