@@ -67,12 +67,9 @@ public class ALittleQuiz
       score -= 1;
     }
 
-
     System.out.println( "Overall, you got " + score + " out of 3 correct." );
     System.out.println( "Thanks for playing!" );
 
   }
   
 }
-
-
