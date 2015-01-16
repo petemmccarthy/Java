@@ -14,11 +14,9 @@ public class ALittleQuiz
 
     System.out.println( "Q1) What is the capital of Alaska?");
     System.out.println( "1) Melbourne");
-    System.out.println( "1) Anchorage");
-    System.out.println( "1) Juneau");
+    System.out.println( "2) Anchorage");
+    System.out.println( "3) Juneau");
     System.out.println( "\n> ");
-
-    
 
   }
   
