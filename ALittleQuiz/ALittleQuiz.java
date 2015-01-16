@@ -46,7 +46,7 @@ public class ALittleQuiz
 
     else
     {
-      System.out.println( "That's right!")
+      System.out.println( "That's right!");
     }
 
     System.out.println( "\nQ1) What is the result of 9+6/3?");
@@ -70,7 +70,7 @@ public class ALittleQuiz
 
     System.out.println( "Overall, you got " + score + "out of 3 correct." );
     System.out.println( "Thanks for playing!" );
-    
+
   }
   
 }
