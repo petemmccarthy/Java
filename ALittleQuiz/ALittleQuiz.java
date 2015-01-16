@@ -28,15 +28,24 @@ public class ALittleQuiz
 
     else
     {
-      System.out.println( "That's incorrect!")
+      System.out.println( "That's incorrect!");
     }
-
 
     System.out.println( "\nQ1) Can you store the value \"cat\" in a variable of type int?");
     System.out.println( "1) yes");
     System.out.println( "2) no");
     System.out.println( "\n> ");
     answer2 = keyboard.nextInt();
+
+    if ( answer2 == 1 )
+    {
+      System.out.println( "Sorry, \"cat\" is a string. ints can only store numbers." );
+    }
+
+    else
+    {
+      System.out.println( "That's right!")
+    }
 
     System.out.println( "\nQ1) What is the result of 9+6/3?");
     System.out.println( "1) 5");
