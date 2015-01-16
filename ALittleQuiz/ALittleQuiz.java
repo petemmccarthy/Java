@@ -8,6 +8,8 @@ public class ALittleQuiz
 
     Scanner keyboard = new Scanner(System.in);
 
+    int answer1, answer2, answer3;
+
     System.out.print( " Are you ready for a quiz? " );
 
     System.out.println( "Okay, here it comes!" );
