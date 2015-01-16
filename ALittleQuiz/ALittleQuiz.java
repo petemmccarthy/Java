@@ -8,7 +8,7 @@ public class ALittleQuiz
 
     Scanner keyboard = new Scanner(System.in);
 
-    int answer1, answer2, answer3;
+    int answer1, answer2, answer3, score = 3;
 
     System.out.print( " Are you ready for a quiz? " );
 
@@ -29,6 +29,7 @@ public class ALittleQuiz
     else
     {
       System.out.println( "That's incorrect!");
+      score -= 1;
     }
 
     System.out.println( "\nQ1) Can you store the value \"cat\" in a variable of type int?");
@@ -40,6 +41,7 @@ public class ALittleQuiz
     if ( answer2 == 1 )
     {
       System.out.println( "Sorry, \"cat\" is a string. ints can only store numbers." );
+      score -= 1;
     }
 
     else
@@ -62,9 +64,13 @@ public class ALittleQuiz
     else
     {
       System.out.println( "That's incorrect!");
+      score -= 1;
     }
 
 
+    System.out.println( "Overall, you got " + score + "out of 3 correct." );
+    System.out.println( "Thanks for playing!" );
+    
   }
   
 }
