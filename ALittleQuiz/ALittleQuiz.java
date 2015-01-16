@@ -54,6 +54,17 @@ public class ALittleQuiz
     System.out.println( "\n> ");
     answer3 = keyboard.nextInt();
 
+    if ( answer3 == 2 )
+    {
+      System.out.println( "That's correct!" );
+    }
+
+    else
+    {
+      System.out.println( "That's incorrect!");
+    }
+
+
   }
   
 }
