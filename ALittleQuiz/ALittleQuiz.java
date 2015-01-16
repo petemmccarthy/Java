@@ -18,7 +18,7 @@ public class ALittleQuiz
     System.out.println( "1) Melbourne");
     System.out.println( "2) Anchorage");
     System.out.println( "3) Juneau");
-    System.out.println( "\n> ");
+    System.out.print( "\n> ");
     answer1 = keyboard.nextInt();
 
     if ( answer1 == 3 )
@@ -35,7 +35,7 @@ public class ALittleQuiz
     System.out.println( "\nQ1) Can you store the value \"cat\" in a variable of type int?");
     System.out.println( "1) yes");
     System.out.println( "2) no");
-    System.out.println( "\n> ");
+    System.out.print( "\n> ");
     answer2 = keyboard.nextInt();
 
     if ( answer2 == 1 )
@@ -53,7 +53,7 @@ public class ALittleQuiz
     System.out.println( "1) 5");
     System.out.println( "2) 11");
     System.out.println( "3) 15/3");
-    System.out.println( "\n> ");
+    System.out.print( "\n> ");
     answer3 = keyboard.nextInt();
 
     if ( answer3 == 2 )
@@ -68,7 +68,7 @@ public class ALittleQuiz
     }
 
 
-    System.out.println( "Overall, you got " + score + "out of 3 correct." );
+    System.out.println( "Overall, you got " + score + " out of 3 correct." );
     System.out.println( "Thanks for playing!" );
 
   }
