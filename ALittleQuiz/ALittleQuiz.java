@@ -8,7 +8,7 @@ public class ALittleQuiz
 
     Scanner keyboard = new Scanner(System.in);
 
-    int answer1, answer2, answer3, score = 3;
+    int ans1, ans2, ans3, score = 3;
 
     System.out.print( " Are you ready for a quiz? " );
 
@@ -19,9 +19,9 @@ public class ALittleQuiz
     System.out.println( "2) Anchorage");
     System.out.println( "3) Juneau");
     System.out.print( "\n> ");
-    answer1 = keyboard.nextInt();
+    ans1 = keyboard.nextInt();
 
-    if ( answer1 == 3 )
+    if ( ans1 == 3 )
     {
       System.out.println( "That's right!" );
     }
@@ -36,9 +36,9 @@ public class ALittleQuiz
     System.out.println( "1) yes");
     System.out.println( "2) no");
     System.out.print( "\n> ");
-    answer2 = keyboard.nextInt();
+    ans2 = keyboard.nextInt();
 
-    if ( answer2 == 1 )
+    if ( ans2 == 1 )
     {
       System.out.println( "Sorry, \"cat\" is a string. ints can only store numbers." );
       score -= 1;
@@ -54,9 +54,9 @@ public class ALittleQuiz
     System.out.println( "2) 11");
     System.out.println( "3) 15/3");
     System.out.print( "\n> ");
-    answer3 = keyboard.nextInt();
+    ans3 = keyboard.nextInt();
 
-    if ( answer3 == 2 )
+    if ( ans3 == 2 )
     {
       System.out.println( "That's correct!" );
     }
