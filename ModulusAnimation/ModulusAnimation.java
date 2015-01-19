@@ -8,6 +8,7 @@ public class ModulusAnimation
     {
 
       if ( i % 10 == 0 )
+        
         System.out.print( "Mr. Mitchell is cool. \r" );
 
       Thread.sleep( 200 );
