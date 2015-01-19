@@ -23,10 +23,20 @@ public class TwentyQuestions
 
     if ( ans1.equals("animal") )
     {
-      if
+      if ( ans2.equals("yes") )
+      {
+        System.out.println( "My guess is that you are thinking of a moose." );
+      }
     }
 
-    System.out.print( "My guess is that you are thinking of a ......." );
+    else if ( ans1.equals("vegetable") )
+    {
+
+    }
+    else 
+    {
+      if
+    }
 
     System.out.println( "I would ask you if I'm right, but I really dont care." );
 
