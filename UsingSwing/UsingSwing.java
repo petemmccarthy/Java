@@ -12,7 +12,7 @@ public class Prog611
     int age = Integer.parseInt( input );
 
     System.out.print( "Hello, " + name + "." );
-    System.out.print( "Next year, you'll be " + ( age + 1) )
+    System.out.print( "Next year, you'll be " + ( age + 1) );
 
     System.exit(0);
 
