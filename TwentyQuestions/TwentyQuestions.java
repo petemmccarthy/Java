@@ -10,12 +10,16 @@ public class TwentyQuestions
 
     String ans1, ans2;
 
-    System.out.print( "TWO QUESTIONS!" );
-    System.out.print( "Think of an object, and I'll try to guess it." );
+    System.out.println( "TWO QUESTIONS!" );
+    System.out.println( "Think of an object, and I'll try to guess it." );
 
-    System.out.print( "Question 1) Is it animal, vegetable or mineral?" );
+    System.out.println( "Question 1) Is it animal, vegetable or mineral?" );
     System.out.print( ">" );
-    int ans1 = keyboard.next();
-    
+    ans1 = keyboard.next();
+
+    System.out.println( "Question 1) Is it animal, vegetable or mineral?" );
+    System.out.print( ">" );
+    ans2 = keyboard.next();
+
   }
 }
