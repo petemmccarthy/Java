@@ -27,18 +27,19 @@ public class TwentyQuestions
       {
         System.out.println( "My guess is that you are thinking of a moose." );
       }
+
+      else
+      {
+        System.out.println( "My guess is that you are thinking of a squirrel." );
+      }
     }
 
-    else if ( ans1.equals("vegetable") )
-    {
 
-    }
-    else 
-    {
-      if
-    }
 
+    
     System.out.println( "I would ask you if I'm right, but I really dont care." );
+
+
 
   }
 }
