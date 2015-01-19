@@ -18,8 +18,8 @@ class Frame613 extends JFrame
   public Frame613()
   {
     setTitle( "613 rocks!" );
-    setSize( 300, 200);
-    setLocation( 100, 200 );
+    setSize( 500, 300);
+    setLocation( 300, 300 );
 
     Panel613 panel = new Panel613();
     Container cp = getContentPane();
@@ -34,6 +34,6 @@ class Panel613 extends JPanel
   {
 
     super.paintComponent( g );
-    g.drawString( "Hi", 75, 100 );
+    g.drawString( "Hi, I'm the new panel!", 25, 50 );
   }
 }
