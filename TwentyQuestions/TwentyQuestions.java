@@ -17,9 +17,15 @@ public class TwentyQuestions
     System.out.print( ">" );
     ans1 = keyboard.next();
 
-    System.out.println( "Question 1) Is it animal, vegetable or mineral?" );
+    System.out.println( "Question 2) Is it bigger than a breadbox?" );
     System.out.print( ">" );
     ans2 = keyboard.next();
+
+    if ( ans1.equals("animal") )
+    {
+
+    }
+
 
   }
 }
