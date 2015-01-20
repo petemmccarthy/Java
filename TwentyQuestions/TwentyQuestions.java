@@ -48,6 +48,19 @@ public class TwentyQuestions
       }
     }
 
+    if ( ans1.equals("mineral") )
+    {
+      if ( ans2.equals("yes") )
+      {
+        System.out.println( "My guess is that you are thinking of a camaro." );
+      }
+
+      else
+      {
+        System.out.println( "My guess is that you are thinking of a paper-clip." );
+      }
+    }
+
     
     System.out.println( "I would ask you if I'm right, but I really dont care." );
 
