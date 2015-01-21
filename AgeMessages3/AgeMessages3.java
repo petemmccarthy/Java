@@ -8,6 +8,10 @@ public class AgeMessages3
 
     Scanner keyboard = new Scanner(System.in);
 
+    String name;
+    int age;
+
     
+
   }
 }
