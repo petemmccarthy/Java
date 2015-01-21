@@ -21,5 +21,15 @@ public class TwoMoreQuestions
     System.out.print( "\nQuestion 2) Is it a living thing? " );
     ans2 = keyboard.next();
 
+    if ( ans1.equals("inside") && ans2.equals("yes") )
+    {
+      System.out.println( "You must be a plant!");
+    }
+
+    else
+    {
+      System.out.println( "You're a car" );
+    }
+
   }
 }
