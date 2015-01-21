@@ -17,6 +17,16 @@ public class AgeMessages3
     System.out.print( "Your age: " );
     age = keyboard.nextInt();
 
-    
+    if ( age < 16 );
+    {
+      System.out.println( "You can't drive, " + name + "." );
+    }
+
+    if ( age > 15 && age < 18 )
+    {
+      System.out.println( "You can drive but not vote, " + name + "." );
+    } 
+
+
   }
 }
