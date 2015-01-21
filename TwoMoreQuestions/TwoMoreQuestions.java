@@ -13,12 +13,12 @@ public class TwoMoreQuestions
 
     System.out.println( "TWO MORE QUESTIONS, BABY" );
 
-    System.out.println( "Think of something and I'll try to guess it!" );
+    System.out.println( "\nThink of something and I'll try to guess it!" );
 
-    System.out.print( "Question 1) Does it belong inside, outside or both? " );
+    System.out.print( "\nQuestion 1) Does it belong inside, outside or both? " );
     ans1 = keyboard.next();
 
-    System.out.print( "Question 2) Is it a living thing? " );
+    System.out.print( "\nQuestion 2) Is it a living thing? " );
     ans2 = keyboard.next();
 
   }
