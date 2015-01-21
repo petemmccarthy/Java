@@ -11,7 +11,12 @@ public class AgeMessages3
     String name;
     int age;
 
-    
+    System.out.print( "Your name: " );
+    name = keyboard.next();
 
+    System.out.print( "Your age: " );
+    age = keyboard.nextInt();
+
+    
   }
 }
