@@ -18,5 +18,8 @@ public class TwoMoreQuestions
     System.out.print( "Question 1) Does it belong inside, outside or both? " );
     ans1 = keyboard.next();
 
+    System.out.print( "Question 2) Is it a living thing? " );
+    ans2 = keyboard.next();
+
   }
 }
