@@ -23,12 +23,12 @@ public class TwoMoreQuestions
 
     if ( ans1.equals("inside") && ans2.equals("yes") )
     {
-      System.out.println( "You must be a plant!");
+      System.out.println( "\nYou must be a plant!");
     }
 
     else
     {
-      System.out.println( "You're a car" );
+      System.out.println( "\nYou're a car" );
     }
 
   }
