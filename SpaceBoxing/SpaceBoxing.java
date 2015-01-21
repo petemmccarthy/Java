@@ -69,7 +69,9 @@ public class SpaceBoxing
     System.out.print("\nWhich planet are you visiting? ");
     planet = keyboard.nextInt();
 
-    System.out.println( "Your weight would be " + ( weight * planet_gravity ) + " pounds on that planet" );
+    int new_weight = weight * planet_gravity
+
+    System.out.println( "Your weight would be " + new_weight + " pounds on that planet" );
 
   }
 }
