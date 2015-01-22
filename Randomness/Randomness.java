@@ -11,6 +11,15 @@ public class Randomness
     int x = 1 + r.nextInt(10);
 
     System.out.println( "My random number is " + x );
-    
+
+    System.out.println( "Here are some numbers from 1 to 5!" );
+    System.out.print( 1 + r.nextInt(5) + " " );
+    System.out.print( 1 + r.nextInt(5) + " " );
+    System.out.print( 1 + r.nextInt(5) + " " );
+    System.out.print( 1 + r.nextInt(5) + " " );
+    System.out.print( 1 + r.nextInt(5) + " " );
+    System.out.print( 1 + r.nextInt(5) + " " );
+    System.out.println();
+
   }
 }
