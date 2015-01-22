@@ -21,5 +21,14 @@ public class Randomness
     System.out.print( 1 + r.nextInt(5) + " " );
     System.out.println();
 
+    System.out.println( "Here are some numbers from 1 to 100!" );
+    System.out.print( 1 + r.nextInt(100) + "\t" );
+    System.out.print( 1 + r.nextInt(100) + "\t" );
+    System.out.print( 1 + r.nextInt(100) + "\t" );
+    System.out.print( 1 + r.nextInt(100) + "\t" );
+    System.out.print( 1 + r.nextInt(100) + "\t" );
+    System.out.print( 1 + r.nextInt(100) + "\t" );
+    System.out.println();
+
   }
 }
