@@ -11,5 +11,8 @@ public class CompareToChallenge
     int i = "axe".compareTo("dog");
     System.out.println(i);
 
+    System.out.print( "Comparing \"applebee's\" with \"apple\" produces " );
+    System.out.println( "applebee's".compareTo("apple") );
+
   }
 }
