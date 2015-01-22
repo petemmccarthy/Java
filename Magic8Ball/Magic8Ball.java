@@ -40,6 +40,16 @@ public class Magic8Ball
       response = "Cannot predict now";
     else if ( choice == 15 )
       response = "Concentrate and ask again";
+    else if ( choice == 16 )
+      response = "Don't count on it";
+    else if ( choice == 17 )
+      response = "My reply is no";
+    else if ( choice == 18 )
+      response = "My sources say no";
+    else if ( choice == 19 )
+      response = "Outlook not so good";
+    else if ( choice == 20 )
+      response = "Very doubtful!";
     else 
       response = "8-BALL ERROR!";
 
