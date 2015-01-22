@@ -30,5 +30,28 @@ public class Randomness
     System.out.print( 1 + r.nextInt(100) + "\t" );
     System.out.println();
 
+    int num1 = 1 + r.nextInt(10);
+    int num2 = 1 + r.nextInt(10);
+
+    if ( num1 == num2 )
+    {
+      System.out.println( "The random nummbers were the same! Wierd." );
+    }
+
+    if ( num1 != num2 )
+    {
+      System.out.println( "The random nummbers were different! Not too surprising, actually." );
+    }
+    
   }
 }
+
+
+
+
+
+
+
+
+
+
