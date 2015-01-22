@@ -14,5 +14,8 @@ public class CompareToChallenge
     System.out.print( "Comparing \"applebee's\" with \"apple\" produces " );
     System.out.println( "applebee's".compareTo("apple") );
 
+    System.out.print( "Comparing \"cat\" with \"cat\" produces " );
+    System.out.println( "cat".compareTo("cat") );
+
   }
 }
