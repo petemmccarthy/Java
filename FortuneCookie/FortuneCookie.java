@@ -13,8 +13,14 @@ public class FortuneCookie
     Random r = new Random();
 
     int cookie = 1 + r.nextInt(6);
+    String quote = "";
 
-    System.out.println( "Forytune cookie says: " + quote );
+    if ( cookie == 1 )
+    {
+      quote = "run"  
+    }
+
+    System.out.println( "Fortune cookie says: " + quote );
 
   }
 }
