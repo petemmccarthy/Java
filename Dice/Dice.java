@@ -19,7 +19,7 @@ public class Dice
     System.out.println( "Let's roll the dice!");
     System.out.println( roll1 );
     System.out.println( roll1 );
-    System.out.println( "You rolled a total of " + ( roll1 + roll2) "!" );
+    System.out.println( "You rolled a total of " + ( roll1 + roll2 ) + "!" );
 
   }
 }
