@@ -13,7 +13,7 @@ public class NumberGuess
     int guess, secret_number = 4;
 
     System.out.println( "The worst number guessing game ever!" );
-    System.out.println( "\nI'm thinking of a number from 1-10, try guess it is?" );
+    System.out.print( "\nI'm thinking of a number from 1-10, try guess it is? " );
     guess = keyboard.nextInt();
 
     if ( guess == secret_number )
