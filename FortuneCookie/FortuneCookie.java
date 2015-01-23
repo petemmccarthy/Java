@@ -9,6 +9,8 @@ public class FortuneCookie
   {
 
     Scanner keyboard = new Scanner(System.in);
+
+    Random r = new Random();
     
   }
 }
