@@ -17,7 +17,32 @@ public class FortuneCookie
 
     if ( cookie == 1 )
     {
-      quote = "run"  
+      quote = "run"; 
+    }
+
+    else if ( cookie == 1 )
+    {
+      quote = "hide";  
+    }
+
+    else if ( cookie == 1 )
+    {
+      quote = "sneak";  
+    }
+
+    else if ( cookie == 1 )
+    {
+      quote = "creep";  
+    }
+
+    else if ( cookie == 1 )
+    {
+      quote = "scowl";
+    }
+
+    else
+    {
+      quote = "smile";
     }
 
     System.out.println( "Fortune cookie says: " + quote );
