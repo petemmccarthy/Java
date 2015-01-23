@@ -10,7 +10,12 @@ public class NumberGuess
 
     Scanner keyboard = new Scanner(System.in);
 
-    int secret_number = 4;
+    int guess, secret_number = 4;
+
+    System.out.println( "The worst number guessing game ever!" );
+    System.out.println( "\nI'm thinking of a number from 1-10, can you guess it?" );
+
+
     
   }
 }
