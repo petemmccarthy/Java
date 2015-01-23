@@ -11,6 +11,10 @@ public class FortuneCookie
     Scanner keyboard = new Scanner(System.in);
 
     Random r = new Random();
-    
+
+    int cookie = 1 + r.nextInt(6);
+
+    System.out.println( "Forytune cookie says: " + quote );
+
   }
 }
