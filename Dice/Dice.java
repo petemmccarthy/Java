@@ -14,11 +14,11 @@ public class Dice
 
     int roll1 = 1 + r.nextInt(6);
 
-    int roll1 = 1 + r.nextInt(6);
+    int roll2 = 1 + r.nextInt(6);
 
     System.out.println( "Let's roll the dice!");
     System.out.println( roll1 );
-    System.out.println( roll1 );
+    System.out.println( roll2 );
     System.out.println( "You rolled a total of " + ( roll1 + roll2 ) + "!" );
 
   }
