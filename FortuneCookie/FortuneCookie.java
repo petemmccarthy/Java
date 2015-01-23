@@ -13,29 +13,29 @@ public class FortuneCookie
     Random r = new Random();
 
     int cookie = 1 + r.nextInt(6);
-    // String quote = "";
+    String quote = "";
 
     if ( cookie == 1 )
     {
       quote = "run"; 
     }
 
-    else if ( cookie == 1 )
+    else if ( cookie == 2 )
     {
       quote = "hide";  
     }
 
-    else if ( cookie == 1 )
+    else if ( cookie == 3 )
     {
       quote = "sneak";  
     }
 
-    else if ( cookie == 1 )
+    else if ( cookie == 4 )
     {
       quote = "creep";  
     }
 
-    else if ( cookie == 1 )
+    else if ( cookie == 5 )
     {
       quote = "scowl";
     }
@@ -45,7 +45,7 @@ public class FortuneCookie
       quote = "smile";
     }
 
-    return quote;
+    // return quote;
 
     System.out.println( "Fortune cookie says: " + quote );
 
