@@ -13,6 +13,7 @@ public class FortuneCookie
     Random r = new Random();
 
     int cookie = 1 + r.nextInt(6);
+    
     String quote = "";
 
     if ( cookie == 1 )
@@ -44,8 +45,6 @@ public class FortuneCookie
     {
       quote = "smile";
     }
-
-    // return quote;
 
     System.out.println( "Fortune cookie says: " + quote );
 
