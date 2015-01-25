@@ -13,8 +13,10 @@ public class OneShotHiLo
     Random r = new Random();
 
     int randy_num = 1 + r.nextInt(100);
+    int guess;
 
     Sysytem.out.print( "I'm thinking of a numnber between 1-100. Try and guess it: ");
+    int = keyboard.nextInt();
 
     Sysytem.out.print( "Sorry you were too low, it was " + randy_num );
     Sysytem.out.print( "Sorry you were too high, it was " + randy_num );
