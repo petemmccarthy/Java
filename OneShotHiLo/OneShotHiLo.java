@@ -18,7 +18,7 @@ public class OneShotHiLo
 
     Sysytem.out.print( "Sorry you were too low, it was " + randy_num );
     Sysytem.out.print( "Sorry you were too high, it was " + randy_num );
-    Sysytem.out.print( "Dead right! It was " + randy_num );
+    Sysytem.out.print( "Dead right! It was " + randy_num + "!");
 
   }
 }
