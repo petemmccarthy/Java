@@ -16,11 +16,23 @@ public class OneShotHiLo
     int guess;
 
     Sysytem.out.print( "I'm thinking of a numnber between 1-100. Try and guess it: ");
-    int = keyboard.nextInt();
+    guess= keyboard.nextInt();
 
-    Sysytem.out.print( "Sorry you were too low, it was " + randy_num );
-    Sysytem.out.print( "Sorry you were too high, it was " + randy_num );
-    Sysytem.out.print( "Dead right! It was " + randy_num + "!");
+    if ( guess == randy_num )
+    {
+      Sysytem.out.print( "Dead right! It was " + randy_num + "!");  
+    }
+
+    else if ( guess > randy_num )
+    {
+      Sysytem.out.print( "Sorry you were too high, it was " + randy_num );  
+    }
+
+    else
+    {
+      Sysytem.out.print( "Sorry you were too low, it was " + randy_num );  
+    }
+    
 
   }
 }
