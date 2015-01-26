@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class ThreeCardMonte
 {
 
-  public static void mian ( String[] args )
+  public static void main ( String[] args )
   {
 
     Scanner keyboard = new Scanner(System.in);
@@ -21,7 +21,7 @@ public class ThreeCardMonte
     System.out.println( "\nWhich card is the ace, 1, 2 or 3? " );
     guess = keyboard.nextInt();
 
-    if guess == ace
+    if ( guess == ace )
     {
       System.out.println( "Ha! Fast Eddie wins again! The ace was card number " + ace + "." );  
     }
@@ -30,6 +30,6 @@ public class ThreeCardMonte
     {
       System.out.println( "You nailed it! Fast Eddie reluctantly hands over your winnings, scowling." );
     }
-    
+
   }
 }
