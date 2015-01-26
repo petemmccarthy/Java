@@ -21,7 +21,7 @@ public class ThreeCardMonte
     System.out.println( "\nWhich card is the ace, 1, 2 or 3? " );
     guess = keyboard.nextInt();
 
-    if ( guess == ace )
+    if ( ace == guess )
     {
       System.out.println( "Ha! Fast Eddie wins again! The ace was card number " + ace + "." );  
     }
