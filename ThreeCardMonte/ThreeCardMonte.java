@@ -13,5 +13,8 @@ public class ThreeCardMonte
     System.out.println( "He lays down three cards." );
     System.out.println( "\nWhich one is the ace?" );
 
+    System.out.println( "Ha! Fast Eddie wins again! The ace was card number 3." );
+    System.out.println( "You nailed it! Fast Eddie reluctantly hands over your winnings, scowling." );
+
   }
 }
