@@ -13,6 +13,11 @@ public class EnterPIN
     System.out.print("PLEASE ENTER YOUR PIN: ");
     int entry = keyboard.nextInt();
 
-
+    while ( entry != pin )
+    {
+      System.out.println("\nINCORRECT PIN. TRY AGAIN.");
+      System.out.print("ENTER YOUR PIN: ");
+      entry = keyboard.nextInt();
+      
   }
 }
