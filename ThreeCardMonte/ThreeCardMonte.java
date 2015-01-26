@@ -18,10 +18,10 @@ public class ThreeCardMonte
     System.out.println( "You slide up to Fast Eddie's card table and plop down your cash." );
     System.out.println( "He glances at you out of the corner of his eye and starts shuffling." );
     System.out.println( "He lays down three cards." );
-    System.out.println( "\nWhich card is the ace, 1, 2 or 3?" );
+    System.out.println( "\nWhich card is the ace, 1, 2 or 3? " );
     guess = keyboard.nextInt();
 
-    System.out.println( "Ha! Fast Eddie wins again! The ace was card number 3." );
+    System.out.println( "Ha! Fast Eddie wins again! The ace was card number " + ace + "." );
     System.out.println( "You nailed it! Fast Eddie reluctantly hands over your winnings, scowling." );
 
   }
