@@ -18,6 +18,9 @@ public class EnterPIN
       System.out.println("\nINCORRECT PIN. TRY AGAIN.");
       System.out.print("ENTER YOUR PIN: ");
       entry = keyboard.nextInt();
-      
+    }
+
+    System.out.println("\nPIN ACCEPTED. YOU NOW HAVE ACCESS TO YOUR ACCOUNT.");
+    
   }
 }
