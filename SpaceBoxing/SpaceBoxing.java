@@ -71,6 +71,8 @@ public class SpaceBoxing
 
     int new_weight = weight * planet_gravity
 
+    // THIS DOESN'T WORK PROPERLY AT THE MOMENT!!!!
+
     System.out.println( "Your weight would be " + new_weight + " pounds on that planet" );
 
   }
